@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "jest": "^27.4.7"
+  },
+  "name": "macosx",
+  "version": "1.0.0",
+  "main": "main.js",
+  "devDependencies": {},
+  "type":"module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
