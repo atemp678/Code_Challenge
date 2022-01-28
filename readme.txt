@@ -6,3 +6,9 @@ What does it do:
 The function works to see what digits can be made with a given input integer, in descending order. 
 
 for example 123 becomes an array: 321, 312, 231, 213, 132, 123.
+
+Solutions file:
+Index.js is solutions file. 
+
+testing suite:
+Tests are in jest, siblings.test.js. 
