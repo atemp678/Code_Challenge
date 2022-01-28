@@ -7,6 +7,9 @@ The function works to see what digits can be made with a given input integer, in
 
 for example 123 becomes an array: 321, 312, 231, 213, 132, 123.
 
+Ideas for solution text document:
+Ideas.txt lists solutions to the problem i've thought of, some relationship to runtime is alluded to.
+
 Solutions file:
 Index.js is solutions file. 
 
