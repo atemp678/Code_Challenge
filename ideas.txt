@@ -1,0 +1,18 @@
+3 ways to solve this:
+In each case you would check that 0 returns 0, 1 returns 1, and that your input is converted to an array which returns 
+all numbers of that array before any sorting method.
+
+1. Bubble sort: sort each of the numbers of the integer [123] where the second digit is larger than the first (1>2, in this example) you swap....after 
+you swap you go to the second set of digits and compare to 3rd and so forth until the numbers are all gone through. 
+In this case you would do this opposite as the question asks for ascending order not descending.  
+example:
+input: 265->625, 652, 562, 526, 265, 256 %maybe sort here to make sure its largest to smallest%
+slower runtime-
+
+2. Recursion...use a permutation to go through the digits of the integer and rearrange.
+given strings-> represent characters a1-an make a permutation of each a string.
+I believe this has a faster runtime than bubble sort average and worst cases.
+
+3. Sorting output after giving back all anagrams of the input integer, in this case you don't care about order 
+because you sort order after getting all outputs. Example 132 gives array [132, 123, 231, 212, 321,312] then you sort 
+with sort function from highest to lowest. Probably good runtime in most cases. 
