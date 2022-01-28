@@ -10,5 +10,5 @@ for example 123 becomes an array: 321, 312, 231, 213, 132, 123.
 Solutions file:
 Index.js is solutions file. 
 
-testing suite:
+Testing suite:
 Tests are in jest, siblings.test.js. 
