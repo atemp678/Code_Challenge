@@ -9,6 +9,8 @@ describe(solution, () => {
     ${"abc"}       | ${undefined}
     ${123}         | ${"321, 312, 231, 213, 132, 123"}
     ${"A 3B2 C6D"} | ${"632, 623, 362, 326, 263, 236"}
+    ${"1"}          |${"1"}
+    ${"0"}          |${"0"}
   `(`converts $input to $expectedResult`, ({ input, expectedResult }) => {
     expect(solution(input)).toBe(expectedResult);
   });
