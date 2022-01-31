@@ -12,7 +12,7 @@ for example 123 becomes an array: 321, 312, 231, 213, 132, 123.
 Ideas.txt lists solutions to the problem i've thought of, some relationship to runtime is alluded to.
 
 ## Solutions file:
-Index.js is solutions file. 
+main.js is solutions file. 
 
 ## Testing suite:
 Tests are in jest, siblings.test.js. 
