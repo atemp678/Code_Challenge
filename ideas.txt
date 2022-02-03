@@ -9,7 +9,7 @@ example:
 input: 265->625, 652, 562, 526, 265, 256 %maybe sort here to make sure its largest to smallest%
 slower runtime-
 
-2. Recursion...use a permutation to go through the digits of the integer and rearrange.
+2. Use a permutation to go through the digits of the integer and rearrange.
 given strings-> represent characters a1-an make a permutation of each a string.
 I believe this has a faster runtime than bubble sort average and worst cases.
 
