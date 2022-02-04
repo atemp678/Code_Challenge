@@ -1,5 +1,4 @@
 export const allAnagrams = function (str) {
-  console.log("string", str);
   const anagrams = {};
   const recurse = function (ana, str) {
     if (str === "") anagrams[ana] = 1;
