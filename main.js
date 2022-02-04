@@ -14,7 +14,6 @@
 //5bc = 5bc 5cb b5c c5b bc5 cb5
 //6bc = 6cb 6bc c6b cb6 b6c bc6
 import { allAnagrams } from "./FindAnagramsFunction";
-
 const lettersOnly = /^[a-zA-Z]+$/;
 export function solution(input) {
   if (lettersOnly.test(input)) {
@@ -29,8 +28,8 @@ export function solution(input) {
       return input;
     } else {
       allAnagrams(number);
-      const arr = number; //declare your number
-      const anag = allAnagrams(arr); //send it to the function
+      const arr = number;
+      const anag = allAnagrams(arr);
       return anag.join(",");
     }
   }
