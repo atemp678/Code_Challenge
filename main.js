@@ -15,7 +15,7 @@
 //6bc = 6cb 6bc c6b cb6 b6c bc6
 import { allAnagrams } from "./FindAnagramsFunction";
 
-const lettersOnly = /[a-zA-Z]/g;
+const lettersOnly = /^[a-zA-Z]+$/;
 export function solution(input) {
   if (lettersOnly.test(input)) {
     return "undefined";

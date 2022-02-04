@@ -1,11 +1,9 @@
-
-
-export var allAnagrams = function (str) {
+export const allAnagrams = function (str) {
   console.log("string", str);
-  var anagrams = {};
-  var recurse = function (ana, str) {
+  const anagrams = {};
+  const recurse = function (ana, str) {
     if (str === "") anagrams[ana] = 1;
-    for (var i = 0; i < str.length; i++)
+    for (let i = 0; i < str.length; i++)
       recurse(ana + str[i], str.slice(0, i) + str.slice(i + 1));
   };
   recurse("", str);
@@ -13,7 +11,3 @@ export var allAnagrams = function (str) {
     return b - a;
   });
 };
-
-// var arr = input; //declare your number
-// var anag = allAnagrams(arr); //send it to the function
-// console.log(anag);
